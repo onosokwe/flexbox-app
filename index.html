@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Home - DevAmplify - The number one tech hub in South East Nigeria focused on providing support for individuals that are interested in tackling some of the biggest challenges in the south eastern part of Nigeria using innovative technology.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Flexbox App for Devamplify</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="DevAmplify a tech innovation community focused on providing support for individuals that are interested in tackling some of our biggest challenges in the south eastern part of Nigeria, Nigeria and Africa using innovative technology.">
+	<meta name="keywords" content="Tech Hub, Dev Amplify, Dev Amplify Hub, Developers, DevAmplify Events, South East Nigeria, Innovation, Technology, Community, Enjoy Fast Internet, Coworking Space, Meeting Room, Shared Kitchen, Constant Power, Conducive Environment.">
+	<meta name="author" content="Kal Chuka is the founder of DevAmplify.">
 	<link rel="icon" href="img/favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="scroll/custom.js"></script>
     <script type="text/javascript" src="scroll/jquery.flexslider.js"></script>
     <script type="text/javascript" src="scroll/jquery.easing.min.js"></script>
     <script type="text/javascript" src="scroll/scrollReveal.js"></script>
+	
 </head>
 <body>
     <div class="page">    
@@ -18,24 +25,51 @@
             <p>Devamplify</p>
         </div>
         <div class="full_width">
+        	<div class="newside">
+                <a class="link scroll" href="#home"><i class="fa fa-home"></i></a>
+                <a class="link scroll" href="#about"><h4><i class="fa fa-info-circle"></i></h4></a>
+                <a class="link scroll" href="#rev"><h4><i class="fa fa-institution"></i></h4> </a>
+                <a class="link scroll" href="#hub"><h4><i class="fa fa-cubes"></i></h4> </a>
+                <a class="link scroll" href="#incubation"><h4><i class="fa fa-cubes"></i></h4> </a>
+                <a class="link scroll" href="#community"><h4><i class="fa fa-slack"></i></h4> </a>
+                <a class="link scroll" href="#blog"><h4><i class="fa fa-calendar"></i></h4></a>
+                <a class="link scroll" href="#contact"><h4><i class="fa fa-comment"></i></h4></a>
+        	</div>
             <div class="aside">
-                <a class="home scroll" href="#home"><img src="img/2019.png" alt=""></a>
-                <a class="link scroll" href="#projects"><h4>About Us</h4><span>Who We Are</span> </a>
-                <a class="link scroll" href="#services"><h4>Our Services</h4><span>Hub, Rev, Incubation</span> </a>
-                <a class="link scroll" href="#blog"><h4>Our Blog</h4><span>Get the Latest updates</span> </a>
-                <a class="link scroll" href="#events"><h4>Our Events</h4><span>Upcoming Events, Gallery</span> </a>
+                <a class="top scroll" href="#home"><img src="img/2019.png" alt=""></a>
+                <a class="link scroll" href="#about"><h4>Who We Are</h4><span>About Us</span> </a>
+                <a class="link scroll" href="#rev"><h4>Rev Academy</h4><span>Software Academy</span> </a>
+                <a class="link scroll" href="#hub"><h4>Innovation Hub</h4><span>Co-working Space</span> </a>
+                <a class="link scroll" href="#incubation"><h4>Startup Incubation</h4><span>Growing Ideas</span> </a>
+                <a class="link scroll" href="#community"><h4>Community</h4><span>Join Us</span> </a>
+                <a class="link scroll" href="#blog"><h4>Recent Updates</h4><span>Blog Posts and Events</span> </a>
                 <a class="link scroll" href="#contact"><h4>Contact</h4><span>How to find us</span> </a>
                 <a class="link scroll nolink" href=""><h4>Say hi at</h4><span>hello@devamplify.com</span> </a>
             </div>
 	        <div class="mainpage">
-        		<div class="home_top" id="home">
+	        	<!-- home -->
+        		<section class="home" id="home">
         			<div class="home_top_image"></div>
                 	<div class="home_top_text">
 						<h1>Connect.<br> Innovate.<br> Create.</h1>
-                		<p>Tech innovation community focused on providing support for individuals that are interested in tackling some of our biggest challenges in the south eastern part of Nigeria, Nigeria and Africa using innovative technology</p>
+						<p>Tech innovation community focused on providing support for individuals that are interested in tackling some of our biggest challenges in the south eastern part of Nigeria, Nigeria and Africa using innovative technology</p>
                 	</div>
-		        </div>
-		        <div id="projects">
+		        </section>
+
+		        <!--  whoweare -->
+		        <section class="whoweare" id="about">
+					<div class="row">
+				        <div class="who">
+				            <h2>Who We Are</h2>
+				            <span>We saw a challenge, we offered a solution</span>
+                			<p>Tech innovation community focused on providing support for individuals that are interested in tackling some of our biggest challenges in the south eastern part of Nigeria, Nigeria and Africa using innovative technology</p>
+							<p>Devamplify tech community is focused on tackling some of our biggest challenges in Africa using innovative technology. Community members have access to constant power supply and more at a very discounted rate for their budding startups.</p>
+							<a href="about.html" class="btn">KNOW MORE</a>
+				        </div>
+					</div>
+				</section>
+
+		        <section id="#projects">
 		        	<div class="project project_one">
 		        		<div class="project_text">
 				            <span>Innovation</span>
@@ -60,51 +94,183 @@
 				        </div>
 				        <div class="project_img project_img_thr"></div>
 				    </div>
-		        </div>
-		        <div id="services">
-	        		<div class="title">
-		        		<h2>Building an ecosystem that sustains the future of Africa.</h2>
-		        		<span>See some of our areas of focus at Devamplify.</span>
-	        		</div>
-		        	<div class="services">
-		        		<div class="service">
-				            <h4>Rev by Devamplify</h4>
-				        	<div class="service_img service_one"></div>
-				            <p>An in-depth program that teaches you software development and computer science. Plus an immersive coding education with no upfront tuition cost.</p>
-				            <a href="#">KNOW MORE</a>
-				        </div>
-				        <div class="service">
-				            <h4>Coworking Space</h4>
-				        	<div class="service_img service_two"></div>
-				            <p>Shared office workspace, event space, conference room, constant power supply and internet access at a very discounted rate for their budding startups.</p>
-				            <a href="#">KNOW MORE</a>
-				        </div>
-				        <div class="service">
-				            <h4>Startup Incubation</h4>
-				        	<div class="service_img service_thr"></div>
-				            <p>Incubation and acceleration of tech startups is our turf. We grow startups from ideas and help them gain traction through our incubation &amp; acceleration program. </p>
-				            <a href="#">KNOW MORE</a>
+		        </section>
+
+		        <!-- rev_about -->
+				<section class="rev_about" id="rev">
+				    <div class="amout">
+				    	<div class="row">
+			                <div class="left-side">
+			                    <p>Learn Full Stack Web, Mobile &amp; Game Application Development in a supportive and growth-focused environment.</p>
+			                </div>
+			                <div class="right-side">
+			                    <p>Learn how to build a tech startup, acquire the skills required to scale your startup, plus get mentoring from startup mentors.</p>
+			                </div>
 				        </div>
 				    </div>
-		        </div>
-		        <div id="likee">
+				</section>
+
+				<!-- rev_blocks -->
+				<section class="rev_blocks">
+		            <div class="rev talents">
+		                <h3>HIRE TALENTS</h3>
+		                <p>Hire from the pool of world-class software developers who successfully completed the Devamplify Rev program. </p>
+		                <a class="blink" href="https://docs.google.com/forms/d/1681QlI6Ezp1RMbPRvOk91i3fm8ocdaB05l2lx4OzQZg" target="_blank"><i class="fa fa-angle-double-right"></i> HIRE TALENTS </a>
+		            </div>
+		            <div class="rev cohort">
+		                <h3>JOIN NEXT COHORT</h3>
+		                <p>Join the next cohort at the Devamplify Rev program and enhance your opportunities as a software developer. </p>
+		                <a class="blink" href="https://bit.ly/revbydevamplify" target="_blank"><i class="fa fa-angle-double-right"></i> JOIN COHORT </a>
+		            </div>
+		            <div class="rev rev_last developer">
+		                <h3>JOIN AS A DEVELOPER</h3>
+		                <p> Want to work with us? Or join a tech startup team? We have tech startup teams waiting for you to click the link below.</p>
+		                <a class="blink" href="https://docs.google.com/forms/d/1a0jWSETX8uHcN4F0rMoM4ZXlNKHEF60zrfr7kNU3iUk" target="_blank"><i class="fa fa-angle-double-right"></i> JOIN A TEAM </a>
+		            </div>
+				</section>
+
+		        <!-- rev_fellows -->
+		        <section class="rev_fellows">
+	        		<div class="title">
+		        		<h2>Devamplify Rev Fellowship</h2>
+		        		<p>Get a world-class full stack developer education and experience, plus the opportunity to be mentored in raising your own startup, for <span>FREE</span>, from Devamplify. </p>
+		        		<a href="https://rev.devamplify.com" target="_blank" class="btn">LEARN MORE</a>
+	        		</div>
+		        </section>
+
+				<!--  hub -->
+		        <section id="hub">
+	        		<div class="title">
+		        		<h2>The Hub</h2>
+		        		<p>The hub is a conducive co-working space and tech event centre in Awka for developers and members of the Devamplify community. Join the largest cluster of tech enthusiasts, founders and innovators east of the Niger and get these and more. Here's what you get!</p>
+	        		</div>
+		        	<div class="hubget">
+		        		<div class="like">
+				        	<i class="fa fa-users"></i>
+							<h4>Co-working space</h4>
+				        </div>
+				        <div class="like">
+				        	<i class="fa fa-coffee"></i>
+							<h4>Free Coffee</h4>
+				        </div>
+				        <div class="like">
+				        	<i class="fa fa-cutlery"></i>
+							<h4>Shared Kitchen</h4>
+				        </div>
+				    </div>
+				    <div class="hubget">
+		        		<div class="like">
+				        	<i class="fa fa-bolt"></i>
+							<h4>Constant Power</h4>
+				        </div>
+				        <div class="like">
+				        	<i class="fa fa-globe"></i>
+							<h4>Fast Internet</h4>
+				        </div>
+				        <div class="like">
+				        	<i class="fa fa-building-o"></i>
+							<h4>Conducive Environment</h4>
+				        </div>
+				    </div>
+		        </section>
+
+		        <!-- coworking -->
+		        <section class="coworking">
+		        	<div class="title">
+		        		<h2>Co-working Space.</h2>
+		        		<span>Coworking area, tech event space, private office for tech startups and more at Devamplify Hub.</span>
+		        	</div>
+		        	<div class="working">
+		        		<div class="space">
+		        			<h4>Virtual Membership</h4>
+				        	<div class="space_img space_one"></div>
+				            <p>Join the only cluster of developers and tech enthusiasts in the eastern part of Nigeria. This gives you access to meet other developers online on our Slack channel. Gives you access to use the shared office space on open hub days (every Saturday) and notifications for events.</p>
+				            <a href="https://devamplify.herokuapp.com" target="_blank">JOIN NOW</a>
+		        		</div>
+		        		<div class="space">
+		        			<h4>Basic Membership</h4>
+				        	<div class="space_img space_two"></div>
+				            <p>Reserve a space in our shared office workspace.</p>
+							<li>11 hours access to physical workspace.</li> 
+							<li>Access to kitchenettes.</li>
+							<li>Team Discount.</li>
+							<li>Internet Access. </li>
+							<li>Monthly Payment Plan (optional).</li>
+							<a href="#" target="_blank">SIGN UP NOW</a>
+		        		</div>
+		        		<div class="space">
+		        			<h4>Private Offices</h4>
+				        	<div class="space_img space_thr"></div>
+				            <p>Have the exclusivity of an exclosed private office space within the Devamplify Hub.</p>
+							<li>11 hours access to physical workspace.</li>
+							<li>Access to Meeting Room.</li>
+							<li>Access to kitchenettes.</li>
+							<li>Team Discount.</li>
+							<li>Internet Access. </li>
+				            <a href="#" target="_blank">SIGN UP NOW</a>
+		        		</div>
+		        	</div>
+		        </section>
+
+		        <!-- startups -->
+				<!-- <section class="startups" id="incubation">
+				    <div class="title">
+				        <h2>Startups</h2>
+				    </div>
+			        <div class="row">
+				        <div class="startbox">
+			                <p class="badge" title="Web Hosting"> RELIGION</p>
+			                <h4 class="betaname"> FAITHORA </h4>
+			                <div class="betacontent">
+			                    <p>Faitnora is customizable church mobile application platform to help churches serve their members with both online and offline contents.</p>
+			                </div>
+				        </div>
+				        <div class="startbox">
+			                <p class="badge" title="Lorem ipsum "> Lorem ipsum  </p>
+			                <h4 class="betaname"> LOREM IPSUM</h4>
+			                <div class="betacontent">
+			                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			                </div> 
+				        </div>
+				        <div class="startbox">
+			                <p class="badge" title="Lorem ipsum "> Lorem ipsum  </p>
+			                <h4 class="betaname"> LOREM IPSUM</h4>
+			                <div class="betacontent">
+			                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			                </div>
+				        </div>
+			    	</div>
+			    	<div class="title">
+			    		<a href="#" class="btn" target="_blank">JOIN ACCELERATION</a>
+		    		</div>
+				</section> -->
+
+		        <!--  community -->
+		        <section id="community">
+					<div class="imgbg"><div class="layer"></div></div>
+				</section>
+
+		        <!-- likee -->
+		        <section id="likee">
 	        		<div class="title">
 		        		<h2>Like what we are doing?</h2>
 		        		<p>Are you a tech enthusiast and interested in building this community with us? Join our slack channel to meet other developers and together we will make a great community. You can also follow us on twitter or like our page on facebook.</p>
 	        		</div>
 		        	<div class="likes">
 		        		<div class="like">
-				        	<a href=""><img src="img/slack.png"><p>Join our Slack channel</p></a>
+				        	<a href="https://devamplify.herokuapp.com/" target="_blank"><img src="img/slack.png"><p>Join our Slack channel</p></a>
 				        </div>
 				        <div class="like">
-				        	<a href=""><img src="img/twitter.png"><p>Follow us on Twitter</p></a>
+				        	<a href="https://twitter.com/devamplify/" target="_blank"><img src="img/twitter.png"><p>Follow us on Twitter</p></a>
 				        </div>
 				        <div class="like">
-				        	<a href=""><img src="img/facebook.png"><p>Follow us on Facebook</p></a>
+				        	<a href="https://facebook.com/devamplify/" target="_blank"><img src="img/facebook.png"><p>Follow us on Facebook</p></a>
 				        </div>
 				    </div>
-		        </div>
-		        <div id="blog">
+		        </section>
+
+		        <!--  blog -->
+		        <section id="blog">
 	        		<div class="title">
 		        		<h2>Blog Posts</h2>
 	        		</div>
@@ -119,69 +285,111 @@
 					        </div>
 					        <div class="blog">
 					            <a href=""><h4>Devamplify trains 30 students of Unizik on Industrial Attachment</h4></a>
-					            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					            consequat.</p>
+					            <p>Inline with the mission of Creating a community of world class software Developers in the Southeastern part of Nigeria as well as incubate and accelerate them with VC-ready startups, On Friday 29th November 2019, we concluded the second cohort for the DevAmplify Student Internship Cohort...</p>
 					        </div>
 		        		</div>
 		        		<div class="row">
 		        			<div class="blog">
 					            <a href=""><h4>How To Set Up A React Project Using Create React App</h4></a>
-					            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					            consequat.</p>
+					            <p>Being an Angular developer, I am used to writing codes in TypeScript which I love so much because of TypeScript (a strict syntactical super-set of JavaScript), adds optional static typing to your codes. Recently, I started working on how to...</p>
 					        </div>
 					        <div class="blog">
 					            <a href=""><h4>Deep Dive Into Middlewares In Laravel</h4></a>
-					            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					            consequat.</p>
+					            <p>What is a Laravel middleware? It is a feature in Laravel which provides a mechanism for filtering HTTP requests entering your application. This allows you to hook into Laravel request processing work flow to perform some kind of logic that decides...</p>
 					        </div>
 		        		</div>
 		        	</div>
 		        	<div class="title">
-		        		<a href="" class="btn">SEE ALL POSTS</a>
+		        		<a href="https://medium.com/@devamplify" class="btn" target="_blank">SEE ALL POSTS</a>
 	        		</div>
-		        </div>
-		        <div id="events">
+		        </section>
+
+		        <!-- events starts -->
+		        <section id="events">
 			        <div class="vid">
 			        	<video autoplay muted loop id="myVideo">
-						  	<source src="img/event.mp4" type="video/mp4">
+			        		<source src="img/makersio.mp4" type="video/mp4">
 						</video>
 			        </div>
 	        		<div class="text">
 	        			<span>Devamplify Events</span>
-	        			<h1>What's happening.</h1>
+	        			<h1>What's happening next.</h1>
 	        			<div class="myevent">
 	        				<div class="myeventleft">
-	        					<h3>01</h3>
+	        					<h3>Jan 13th 2020</h3>
+	        					<h6>Devamplify Hub, Beside UBA, Aroma, Awka, Anambra State</h6>
+	        					<!-- <h6>.00 AM - 1.00 PM</h6> -->
 	        				</div>
 	        				<div class="myeventright">
-	        					<h4>Bot Party Season 4</h4>
-	        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					            quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+	        					<a href=""><h4>January 2020 Cohort </h4></a>
+	        					<p>Application for the January 2020 Cohort of the Rev by Devamplify software development training in web, mobile and game development has commenced. The cohort training kicks off on the 13th of January...</p>
 	        				</div>
 	        			</div>
 	        			<div class="myevent">
 	        				<div class="myeventleft">
-	        					<h3>02</h3>
+	        					<h3>Feb 1st 2020</h3>
+	        					<h6>Devamplify Hub, Beside UBA, Aroma, Awka, Anambra State</h6>
+	        					<h6>10.00 AM - 1.00 PM</h6>
 	        				</div>
 	        				<div class="myeventright">
-	        					<h4>Bot Party Season 5</h4>
+	        					<a href=""><h4>Bot Party Season 3</h4></a>
 	        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					            quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 	        				</div>
 	        			</div>
 			        </div>
-				</div>
+				</section>
+
+				<!-- contact starts-->
+				<section id="contact">
+					<div class="block">
+						<div class="form">
+							<h4>Quick Inquiry:</h4>
+							<form method="post">
+								<div class="myformgroup">
+									<label>Name</label>
+									<input type="text" name="" placeholder="Names" class="formbox" required="required">
+								</div>
+								<div class="myformgroup">
+									<label>Email</label>
+									<input type="email" name="" placeholder="Email" class="formbox" required="required">
+								</div>
+								<div class="myformgroup">
+									<label>Phone</label>
+									<input type="tel" name="" placeholder="Phone Number" class="formbox" required="required">
+								</div>
+								<div class="myformgroup">
+									<label>Message: Inquiry</label>
+									<textarea placeholder="Your Message or Inquiry" name="" cols="3" rows="3" class="formbox" required="required"></textarea>
+								</div>
+								<div class="myformgroup">
+									<input type="submit" name="contact_us" class="btn btn-success" value="SEND">
+								</div>
+							</form>
+						</div>
+						<div class="details">
+							<h4>Inquiries:</h4>
+							<p>Need to reach us? Here are different options to get in touch with the Devamplify Team. Use the form to send us a very quick inquiry or you may come visit us at our office address found below. Find our contact and map to our office at Awka. We occupy the first floor of the left wing.</p>
+							<div class="boxed">
+								<h4>Get In Touch:</h4>
+								<p>First Floor Grace and Faith House.</p>
+								<p>Enugu-Onitsha Express Way</p>
+								<p>Beside UBA, Aroma, Awka</p>
+								<p>Anambra State</p>
+							</div>
+							<div class="boxed">
+								<h4>Email:</h4>
+								<p>hello@devamplify.com </p>
+								<h4>Official Phone:</h4>
+								<p>0909-0000-962 </p>
+							</div>
+						</div>
+					</div>
+				    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2729107763344!2d7.075088014537689!3d6.227704595491932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043828951850db3%3A0x478f687fa28f5d75!2sDevamplify!5e0!3m2!1sen!2sng!4v1509192840224" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</section>
 			</div>
 	    </div>
     </div>
-    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
